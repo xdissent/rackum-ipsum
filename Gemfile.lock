@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.4.3)
+    rubytest (0.7.0)
+      ansi
+    test (1.0.0)
+      rubytest
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  test (~> 1.0.0)
