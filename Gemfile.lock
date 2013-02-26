@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.4.3)
+    kgio (2.8.0)
+    rack (1.5.2)
+    rubytest (0.7.0)
+      ansi
+    test (1.0.0)
+      rubytest
+    unicorn (3.7.0)
+      kgio (~> 2.3)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  test (~> 1.0.0)
+  unicorn (~> 3.7.0)
