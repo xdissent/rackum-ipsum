@@ -17,6 +17,7 @@
 require(dirname(__FILE__) . '/../vendor/composer/autoload.php');
 use Symfony\Component\Yaml\Yaml;
 $cfg = Yaml::parse(dirname(__FILE__) . '/../config/database.yml');
+$cfg = $cfg["production"];
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
