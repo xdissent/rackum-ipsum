@@ -14,7 +14,7 @@
  * @package WordPress
  */
 
-require(dirname(__FILE__) . '/../vendor/autoload.php');
+require(dirname(__FILE__) . '/../vendor/composer/autoload.php');
 use Symfony\Component\Yaml\Yaml;
 $cfg = Yaml::parse(dirname(__FILE__) . '/../config/database.yml');
 
